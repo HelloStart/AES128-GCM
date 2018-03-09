@@ -61,7 +61,7 @@ Tag = f196ec546c4c0af08be088bab97191
 
 	printf("AAD = ");
 	for (i = 0;i < 48;i++)
-		printf("%02x",plaintext[i]);
+		printf("%02x",aad[i]);
 	printf("\r\n");
 
     
